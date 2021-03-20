@@ -1,22 +1,12 @@
 /* Debug */
 
-#carousel {
-    height: 600px;
-    background-color: #E1D77A;
-}
-
 main {
     background-color: #ABCFE7
 }
 
-#section-title {
-    height: 50px
-}
-
 #first,
 #second,
-#third,
-#forth {
+#third {
     height: 250px;
 }
 
@@ -67,6 +57,21 @@ input[type="text"],
     height: 100%;
     padding: 10% 18% 0;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.bold-italic {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 42px;
 }
 
 .clearfix::after {
@@ -209,43 +214,49 @@ input[type="text"]::placeholder {
 #carousel {
     background: url(../img/bike.jpg) no-repeat center 65%;
     background-size: cover;
+    height: 600px;
 }
 
-#carousel span {
-    text-transform: uppercase;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 42px;
-}
 
+}
 #go-to-store {
     margin-top: 4%;
 }
-
 #go-to-store>a {
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 600;
     color: yellow;
     text-transform: uppercase;
     text-decoration: none;
 }
-
 #go-to-store>a:hover {
     text-decoration: underline;
 }
 
-
 /* /Carousel */
 
+/* Main */
 #first,
 #second,
-#third,
-#forth {
+#third {
     float: left;
     width: 25%;
-    background-color: red;
+    margin: 0 63px;
+    background-color: purple;
+    border: 1px solid black;
 }
-
+#first {
+    background: url(../img/tuta-scott.jpg) 72% 0 no-repeat;
+    background-size: cover;
+}
+#second img {
+    width: 100%;
+    height: 100%;
+    background-color: #d35500;
+}
+#third {
+    background: url(../img/bike.jpg);
+}
 footer {
     margin-top: 15px;
 }
