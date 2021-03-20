@@ -1,0 +1,229 @@
+/* Debug */
+
+#carousel {
+    height: 600px;
+    background-color: #E1D77A;
+}
+
+main {
+    background-color: #ABCFE7
+}
+
+#section-title {
+    height: 50px
+}
+
+#first,
+#second,
+#third,
+#forth {
+    height: 250px;
+}
+
+footer {
+    height: 50px;
+    background-color: #8801FE;
+}
+
+
+/* /Debug */
+
+
+/* Common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#top-bar,
+#middle-bar,
+#bottom-bar {
+    padding: 0 15%;
+}
+
+#middle-bar,
+#carousel span {
+    color: white;
+}
+
+header,
+#middle-bar,
+input[type="text"],
+#middle-bar button,
+#bottom-bar {
+    background-color: #071429;
+}
+
+.m-left15 {
+    margin-left: 15%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* /Common */
+
+
+/* Header */
+
+header {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+/* Top bar */
+
+#top-bar {
+    background-color: #030f22
+}
+
+#top-bar>ul {
+    padding-bottom: 5px;
+}
+
+#top-bar li {
+    display: inline-block;
+    padding: 1%;
+    list-style: none;
+    color: white;
+}
+
+#top-bar li:first-child,
+#top-bar li:nth-child(2) {
+    padding: 0 4% 0 0;
+    color: #4e5764;
+    font-weight: 600;
+}
+
+img[src*="bandiera"] {
+    width: 17px;
+    height: 17px;
+    vertical-align: sub;
+    border-radius: 50%;
+}
+
+
+/* Middle-bar */
+
+#middle-bar {
+    line-height: 100px;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 25%;
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    border-color: white;
+    vertical-align: bottom;
+}
+
+input[type="text"]::placeholder {
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#middle-bar button {
+    width: 4%;
+    height: 50px;
+    position: relative;
+    right: 5px;
+    border-width: 3px 3px 3px 0px;
+    border-style: solid;
+    border-color: white;
+    vertical-align: bottom;
+}
+
+#middle-bar>button>i {
+    font-size: 25px;
+    /*     color: white; */
+}
+
+#logo-container {
+    display: inline-block;
+}
+
+#logo-container>img {
+    width: 40%;
+    margin-left: 35%;
+    vertical-align: bottom;
+}
+
+#shopping-cart {
+    display: inline-block;
+    margin-left: 25%;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+}
+
+
+/* Bottom-bar */
+
+#bottom-bar {
+    line-height: 50px;
+}
+
+#container {
+    margin-top: 10px;
+    border-top: 1px solid white;
+}
+
+#container>a {
+    display: inline-block;
+    width: calc(100% / 9 - 3px);
+    vertical-align: bottom;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#container>a:hover {
+    color: yellow;
+}
+
+
+/* /Header */
+
+#carousel {
+    background: url(../img/bike.jpg) no-repeat center 65%;
+    background-size: cover;
+}
+
+#carousel span {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 42px;
+}
+
+.layover {
+    width: 100%;
+    height: 100%;
+    padding: 10% 18% 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#first,
+#second,
+#third,
+#forth {
+    float: left;
+    width: 25%;
+    background-color: red;
+}
+
+footer {
+    margin-top: 15px;
+}
