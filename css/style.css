@@ -146,6 +146,15 @@ input[type="text"]::placeholder {
     color: white;
 }
 
+input[type="text"]:focus,
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 #middle-bar button {
     width: 4%;
     height: 50px;
@@ -177,6 +186,10 @@ input[type="text"]::placeholder {
     position: relative;
     top: 30px;
     font-size: 18px;
+}
+
+#shopping-cart i:hover {
+    cursor: pointer;
 }
 
 
@@ -249,13 +262,25 @@ input[type="text"]::placeholder {
     background: url(../img/tuta-scott.jpg) 72% 0 no-repeat;
     background-size: cover;
 }
-#second img {
-    width: 100%;
-    height: 100%;
-    background-color: #d35500;
+#second {
+    background: url(../img/borse.jpg) center;
+    background-size: contain;
 }
 #third {
-    background: url(../img/bike.jpg);
+    background: url(../img/bike.jpg) bottom;
+    background-size: cover;
+}
+.layover-gradiant {
+    position: relative;
+    top: 25%;
+    height: 75%;
+    background: linear-gradient(to top, #000, transparent);
+    opacity: .8;
+}
+#second-carousel {
+    background: url(../img/pista.jpg) no-repeat center 65%;
+    background-size: cover;
+    height: 600px;
 }
 footer {
     margin-top: 15px;
