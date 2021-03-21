@@ -1,9 +1,5 @@
 /* Debug */
 
-main {
-    background-color: #ABCFE7
-}
-
 #first,
 #second,
 #third {
@@ -281,6 +277,9 @@ button:hover {
     background: url(../img/pista.jpg) no-repeat center 65%;
     background-size: cover;
     height: 600px;
+}
+.prova {
+    margin: 20px 0;
 }
 footer {
     margin-top: 15px;
