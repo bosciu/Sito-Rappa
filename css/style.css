@@ -70,6 +70,14 @@ input[type="text"],
     font-size: 42px;
 }
 
+.image-text {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    font-size: 28px;
+    color: white;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -226,11 +234,10 @@ button:hover {
     height: 600px;
 }
 
-
-}
 #go-to-store {
     margin-top: 4%;
 }
+
 #go-to-store>a {
     font-size: 22px;
     font-weight: 600;
@@ -238,46 +245,59 @@ button:hover {
     text-transform: uppercase;
     text-decoration: none;
 }
+
 #go-to-store>a:hover {
     text-decoration: underline;
 }
 
+
 /* /Carousel */
 
+
 /* Main */
+
 #first,
 #second,
 #third {
     float: left;
     width: 25%;
     margin: 0 63px;
-    background-color: purple;
     border: 1px solid black;
 }
+
 #first {
     background: url(../img/tuta-scott.jpg) 72% 0 no-repeat;
     background-size: cover;
 }
+
 #second {
     background: url(../img/borse.jpg) center;
     background-size: contain;
 }
+
 #third {
     background: url(../img/bike.jpg) bottom;
     background-size: cover;
 }
+
 .layover-gradiant {
     position: relative;
     top: 25%;
     height: 75%;
     background: linear-gradient(to top, #000, transparent);
-    opacity: .8;
 }
+
 #second-carousel {
     background: url(../img/pista.jpg) no-repeat center 65%;
     background-size: cover;
     height: 600px;
 }
+
+main>div:first-child {
+    position: relative;
+    bottom: 125px;
+}
+
 footer {
     margin-top: 15px;
 }
